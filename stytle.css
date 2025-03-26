@@ -1,0 +1,59 @@
+ 
+
+
+
+.main{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(251, 3, 3, 0.7)), url(/jollof\ rice.png);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.button{
+    padding: 30px 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(250, 158, 11);
+    color: white;
+}
+
+button:hover{
+    background-color: green;
+}
+
+.txt1{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: green;
+}
+
+.head{
+    margin-top: 20px;
+}
+
+.main h1{
+    color: whitesmoke;
+}
+
+#food{
+    color: aqua;
+}
+
+#web{
+    color: yellow;
+}
+
+#ice{
+    height: 70%;
+    width: 70%;
+}
